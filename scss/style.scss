@@ -491,3 +491,12 @@ body {
 		}
 	}
 }
+@media (max-width: 450px) {
+	.button {
+		padding: 15px 30px 15px 60px;
+		&::after {
+			top: 17px;
+			left: 30px;
+		}
+	}
+}

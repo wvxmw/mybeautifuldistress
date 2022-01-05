@@ -855,3 +855,13 @@ body {
     transition: all 1s ease 0s;
   }
 }
+
+@media (max-width: 450px) {
+  .button {
+    padding: 15px 30px 15px 60px;
+  }
+  .button::after {
+    top: 17px;
+    left: 30px;
+  }
+}
