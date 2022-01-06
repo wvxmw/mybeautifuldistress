@@ -14,35 +14,70 @@
 	<meta name="theme-color" content="#000000">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;900&family=Mukta&display=swap"
+		rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-	<header class="fullscreen">
-		<div class="fullscreen__body">
-			<div class="title">
-				<h1>WVXMW</h1>
-			</div>
-			<div class="button__body">
-				<div class="button__free">
-					<span></span>
+	<div class="wrapper">
+		<main class="page">
+			<div class="page__wrapper">
+				<div class="page__screen screen">
+					<div class="screen__content">
+						<div class="title" data-swiper-parallax="100%" data-swiper-parallax-opacity="0">
+							<h1>WVXMW</h1>
+						</div>
+					</div>
+					<div class="screen__body">
+						<div class="screen__image" data-swiper-parallax="33%" data-swiper-parallax-scale="1.1">
+							<img src="img/bg2.gif" alt="" class="bg header-bg">
+						</div>
+					</div>
 				</div>
-				<a href="https://www.instagram.com/wvxmw/" class="button">
-					<span class="button__line button__line-top"></span>
-					<span class="button__line button__line-right"></span>
-					<span class="button__line button__line-bottom"></span>
-					<span class="button__line button__line-left"></span>
-					<span class="button__text">Instagram</span>
-				</a>
+				<div class="page__screen screen">
+					<div class="screen__content">
+						<div class="button__body" data-swiper-parallax="150%" data-swiper-parallax-opacity="0"
+							data-swiper-parallax-scale="0.8">
+							<a href="https://www.instagram.com/wvxmw/" class="button">
+								<span class="button__line button__line-top"></span>
+								<span class="button__line button__line-right"></span>
+								<span class="button__line button__line-bottom"></span>
+								<span class="button__line button__line-left"></span>
+								<div class="button__text">Instagram</div>
+							</a>
+						</div>
+					</div>
+					<div class="screen__body">
+						<div class="screen__image">
+							<img src="img/bg2.jpg" alt="" class="bg">
+						</div>
+					</div>
+				</div>
+				<div class="page__screen screen">
+					<div class="screen__content">
+						<a href="https://vk.com/dontwannatobeyouanymore" class="button__free" data-swiper-parallax="150%" data-swiper-parallax-opacity="0"
+							data-swiper-parallax-scale="0.8">
+							<span class="button__free__text">
+								<span>Vkontakte</span>
+							</span>
+						</a>
+					</div>
+					<div class="screen__body">
+						<div class="screen__image" data-swiper-parallax-opacity="0.8">
+							<img src="img/bg3.jpg" alt="" class="bg bg-free">
+						</div>
+					</div>
+				</div>
 			</div>
-		</div>
-		<div class="background">
-			<img src="img/bg.jpg" alt="background" class="bg">
-		</div>
+			<div class="page__pagination">
+			</div>
+			<!-- <div class="page__scroll"></div> -->
 
-	</header>
+		</main>
+	</div>
 
+	<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	<script src="js/script.js"></script>
 </body>
