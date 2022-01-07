@@ -18,8 +18,39 @@ $(document).ready(function () {
 		}
 	)
 });
+$(document).ready(function () {
+	$('.button-tg').hover(
+		function () {
+			$('.bg').addClass('active-tg');  // Добавляем класс 
+		},
+		function () {
+			$('.bg').removeClass('active-tg');  // Убираем класс 
+		}
+	)
+});
+$(document).ready(function () {
+	$('.button-wave').hover(
+		function () {
+			$('.bg').addClass('active-zenly');  // Добавляем класс 
+		},
+		function () {
+			$('.bg').removeClass('active-zenly');  // Убираем класс 
+		}
+	)
+});
 
-let wrapper = document.querySelector('.wrapper'); 
+$(document).ready(function () {
+	$('.button-steam').hover(
+		function () {
+			$('.bg').addClass('active-steam');  // Добавляем класс 
+		},
+		function () {
+			$('.bg').removeClass('active-steam');  // Убираем класс 
+		}
+	)
+});
+
+let wrapper = document.querySelector('.wrapper');
 
 const pageSlider = new Swiper('.page', {
 	wrapperClass: "page__wrapper",
@@ -30,6 +61,9 @@ const pageSlider = new Swiper('.page', {
 	slidesPerView: 'auto',
 
 	parallax: true,
+
+	// стартовый слайд
+	initialSlide: 5,
 
 	// включение/отключение
 	// перетаскивание на пк
@@ -46,7 +80,7 @@ const pageSlider = new Swiper('.page', {
 		// включить/выключить
 		// управление клавишами
 		// pageUp, pageDown
-		pageUpDown:true
+		pageUpDown: true
 	},
 
 	// управление колесом мыши
@@ -87,7 +121,7 @@ const pageSlider = new Swiper('.page', {
 		bulletActiveClass: "page__bullet_active"
 	},
 
-	 // And if we need scrollbar
+	// And if we need scrollbar
 	//  scrollbar: {
 	// 	el: '.page__scroll',
 	// 	dragClass: "page__drag-scroll",
