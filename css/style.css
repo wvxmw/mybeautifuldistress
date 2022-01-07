@@ -1853,8 +1853,8 @@ body {
 
 @media (max-width: 768px) {
   .button-wave {
-    -webkit-filter: grayscale(35%);
-            filter: grayscale(35%);
+    -webkit-filter: grayscale(15%);
+            filter: grayscale(15%);
   }
   .bg-zenly {
     -webkit-filter: grayscale(30%);
