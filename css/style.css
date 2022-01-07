@@ -1853,12 +1853,12 @@ body {
 
 @media (max-width: 768px) {
   .button-wave {
-    -webkit-filter: grayscale(45%);
-            filter: grayscale(45%);
+    -webkit-filter: grayscale(35%);
+            filter: grayscale(35%);
   }
   .bg-zenly {
-    -webkit-filter: grayscale(40%);
-            filter: grayscale(40%);
+    -webkit-filter: grayscale(30%);
+            filter: grayscale(30%);
   }
 }
 
