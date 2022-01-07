@@ -62,9 +62,6 @@ const pageSlider = new Swiper('.page', {
 
 	parallax: true,
 
-	// стартовый слайд
-	initialSlide: 5,
-
 	// включение/отключение
 	// перетаскивание на пк
 	simulateTouch: false,
